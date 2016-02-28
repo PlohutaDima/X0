@@ -5,5 +5,5 @@ public enum Figure {
 
  X,O;
 
-ss
+
 }
