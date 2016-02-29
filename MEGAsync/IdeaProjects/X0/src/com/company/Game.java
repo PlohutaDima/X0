@@ -7,7 +7,8 @@ public class Game
 
 	public static void printGameName()
 	{
-		System.out.println("GAME: %s" + Game.GAME_NAME);
+		System.out.println(Game.GAME_NAME);
 	}
+
 
 }
