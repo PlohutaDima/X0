@@ -20,8 +20,7 @@ public class Main {
         Game.printGameName();*/
         printGameNameAndBoard(threePlayersName, board);
     }
-    public static void printGameNameAndBoard(final Game game, final Board board)
-    {
+    public static void printGameNameAndBoard(final Game game, final Board board) {
         Game.printGameName();
         System.out.println("==================");
         board.printBoard();

@@ -1,9 +1,17 @@
 package com.company;
 
 
-public enum Figure {
+public class Figure {
 
- X,O;
+ private final String figure;
 
 
+ public Figure(String figure) {
+  this.figure = figure;
+ }
+
+ public String getFigure()
+ {
+  return figure;
+ }
 }

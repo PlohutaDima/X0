@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class TwoPlayersName extends Game{
+public class TwoPlayersName extends Game {
 
     private final String player1Name;
 
@@ -12,7 +12,7 @@ public class TwoPlayersName extends Game{
         this.player2Name = player2Name;
     }
 
-    public  void printPlayer1Name(){
+    public  void printPlayer1Name() {
         System.out.println(this.player1Name);
     }
 
