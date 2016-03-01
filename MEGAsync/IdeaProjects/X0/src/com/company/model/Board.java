@@ -1,11 +1,11 @@
-package com.company;
+package com.company.model;
 
 
-import java.util.Locale;
+import com.company.controller.Game;
 
 public class Board extends Game {
 
-
+/*
 	private Figure figure11 = new Figure(" ");
 
 	private Figure figure12 = new Figure(" ");
@@ -35,7 +35,7 @@ public class Board extends Game {
 		System.out.printf("%s|%s|%s\n",figure31.getFigure(),figure32.getFigure(),figure33.getFigure());
 
 	}
-
+*/
 
 
 }

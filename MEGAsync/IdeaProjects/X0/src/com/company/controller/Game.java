@@ -1,15 +1,17 @@
-package com.company;
+package com.company.controller;
 
+
+import com.company.model.Player;
 
 public class Game
 {
 	private static final String GAME_NAME = "XO";
 
-    private Player [] players;
+    private Player[] players;
 
-	public static void printGameName()
+	public String getGameName()
 	{
-		System.out.println(Game.GAME_NAME);
+		return GAME_NAME;
 	}
 
     public Player cyrrentPlayer()
@@ -20,5 +22,9 @@ public class Game
     public boolean move(final int x, final int y)
     {
         return false;
+    }
+
+    public Player[] getPlayers() {
+        return players;
     }
 }

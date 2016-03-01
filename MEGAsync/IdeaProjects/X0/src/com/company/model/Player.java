@@ -1,4 +1,4 @@
-package com.company;
+package com.company.model;
 
 /**
  * Created by plohuta on 01.03.16.
@@ -6,6 +6,8 @@ package com.company;
 public class Player {
 
     private final String name;
+
+    private final String figure;
 
     public Player(final String name, String figure) {
         this.name = name;
@@ -17,11 +19,6 @@ public class Player {
     }
 
     public String getFigure() {
-        return name;
+        return figure;
     }
-
-   // private String figure;
-
-    private final String figure;
-
 }
